@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- Changed input to textarea to support multi-line wrapping -->
+      <textarea wrap="soft" disabled id="result" rows="2">0</textarea>
+      <div class="key">
+        <div id="add" class="operators">+</div>
+        <div id="sub" class="operators">-</div>
+        <div id="mul" class="operators">*</div>
+        <div id="divide" class="operators">/</div>
+        <div id="equal">=</div>
+        <div class="digits">7</div>
+        <div class="digits">8</div>
+        <div class="digits">9</div>
+        <div class="digits">4</div>
+        <div class="digits">5</div>
+        <div class="digits">6</div>
+        <div class="digits">1</div>
+        <div class="digits">2</div>
+        <div class="digits">3</div>
+        <div class="digits">0</div>
+        <div class="digits">.</div>
+        <div id="clear">C</div>
+        <div  id="delete"><i class="fas fa-backspace"></i></div>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
